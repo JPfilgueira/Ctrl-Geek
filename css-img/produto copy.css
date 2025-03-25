@@ -1,0 +1,84 @@
+/* PRODUTOS */
+/* Reset de margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para produtos */
+.produto {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 15px;
+    width: 50vh;
+    height: 58vh;
+}
+
+.produto img {
+    width: 50%;
+    height: auto;
+}
+
+/* Estilos para a seção de desconto */
+.desconto {
+    padding: 5vh;
+    background-color: rgba(61, 61, 61, 0.071);
+    border-radius: 20px;
+    height: 750px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#centralizacao {
+    text-align: center;
+    
+}
+
+.peçasdesconto {
+    background-color: rgba(100, 89, 230, 1);
+    border-radius: 25px 25px 0 0;
+    padding: 3vh 0vh 1vh 3vh;
+}
+
+/* Estilos para o botão de compra */
+.btncomprar {
+    background-color: rgba(100, 89, 230, 0.5);
+    padding: 20px; /* Removido o padding duplicado */
+    border-radius: 360px;
+    text-align: center;
+    border: none;
+}
+
+.btncomprar img{
+    width: 100%;
+}
+
+/* Estilos para preços */
+.preco {
+    color: #1a9986b2;
+    font-size: 18px;
+}
+
+.precoReal {
+    color: #29DFC4;
+    font-size: 30px;
+}
+
+/* Estilos para títulos na seção de desconto */
+.desconto h4 {
+    color: #FAFEFE;
+    font-size: 20px;
+}
+
+/* Estilos para o carrossel de produtos */
+#carrosselProdutos {
+    padding: 20px;
+    width: 1700px;
+}
+
+/* Estilos para texto adaptável */
+.texto-adaptavel {
+    font-size: clamp(1rem, 5vw, 3rem); /* Mínimo 1rem, ideal 5vw, máximo 3rem */
+    text-align: center; /* Centraliza o texto */
+}

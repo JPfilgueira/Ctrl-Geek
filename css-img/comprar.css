@@ -1,0 +1,80 @@
+main{
+    margin:  0px 10%;
+}
+
+main .imagem{
+    margin:0px 100px 0px;
+}
+
+.tabela{
+    background-color: #88A0ED;
+    padding: 10%;
+    border-radius: 20px;
+}
+
+.button{
+    padding: 5%;
+    background-color: rgba(100, 89, 230, 0.5);      
+    border: 0;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.avaliação{
+    padding: 2%;
+    background-color: rgba(100, 89, 230, 0.5);      
+    border: 0;
+    border-radius: 18px;
+    margin: 10px;
+}
+
+.comentario{
+    background-color: #88A0ED;
+    padding: 2%;
+    border-radius: 12px;
+}
+
+hr{
+    color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+
+.direita{
+    margin: 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction: row;
+}
+
+.textoacima{
+    font-size: 24px;
+    color: #666;
+    margin: 20px 0; 
+}
+
+.texto{
+    font-size: 24px;
+    transform: translateY(-90px); /* Ajuste a elevação conforme necessário */
+    color: #333;
+    margin: 0;
+    text-align: left;
+    position: relative; /* Para usar z-index */
+    z-index: 1;
+}
+
+.produto{
+    background-color: rgba(230, 230, 230, 0.308);
+    padding: 5px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.butao{
+    padding: 20px;
+    background-color: #88A0ED;
+    border-radius: 16px;
+    border: 0;
+    font-size: 24px;
+}
